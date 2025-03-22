@@ -1,0 +1,21 @@
+{
+  "name": "test-bench",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Malintha Induwara",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "generate": "NODE_OPTIONS=\"--no-warnings\" node --loader ts-node/esm scripts/generate.ts",
+    "clean": "NODE_OPTIONS=\"--no-warnings\" node --loader ts-node/esm scripts/clean.ts",
+    "save": "NODE_OPTIONS=\"--no-warnings\" node --loader ts-node/esm scripts/save.ts",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
+  }
+}
