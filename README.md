@@ -12,8 +12,8 @@ Coding Test Bench is an easy way to practice and test coding challenges within y
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/test-bench.git
-cd test-bench
+git clone https://github.com/malintha-induwara/coding-test-bench.git
+cd coding-test-bench
 ```
 
 2. Install dependencies:
